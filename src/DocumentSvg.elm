@@ -54,95 +54,53 @@ view : Element msg
 view =
     svg
         [ version "1.1"
-        , viewBox "251.0485 144.52063 56.114286 74.5"
-        , width "56.114286"
-        , height "74.5"
-        , width "30px"
+        , viewBox "0 0 70 70"
+        , width "56"
+        , height "56"
+        , width "80px"
         ]
         [ defs []
             [ fillGradient ]
         , metadata [] []
-        , g
-            [ id "Canvas_11"
-            , stroke "none"
-            , fill fillColor
-            , strokeOpacity "1"
-            , fillOpacity "1"
-            , strokeDasharray "none"
-            ]
-            [ g [ id "Canvas_11: Layer 1" ]
-                [ g [ id "Group_38" ]
-                    [ g [ id "Graphic_32" ]
-                        [ Svg.path
-                            [ d "M 252.5485 146.02063 L 252.5485 217.52063 L 305.66277 217.52063 L 305.66277 161.68254 L 290.00087 146.02063 Z"
-                            , stroke strokeColor
-                            , strokeLinecap "round"
-                            , strokeLinejoin "round"
-                            , strokeWidth "3"
-                            ]
-                            []
-                        ]
-                    , g
-                        [ id "Line_34"
-                        ]
-                        [ line
-                            [ x1 "266.07286"
-                            , y1 "182.8279"
-                            , x2 "290.75465"
-                            , y2 "183.00997"
-                            , stroke pageTextColor
-                            , strokeLinecap "round"
-                            , strokeLinejoin "round"
-                            , strokeWidth "2"
-                            ]
-                            []
-                        ]
-                    , g
-                        [ id "Line_35"
-                        ]
-                        [ line
-                            [ x1 "266.07286"
-                            , y1 "191.84156"
-                            , x2 "290.75465"
-                            , y2 "192.02363"
-                            , stroke pageTextColor
-                            , strokeLinecap "round"
-                            , strokeLinejoin "round"
-                            , strokeWidth "2"
-                            ]
-                            []
-                        ]
-                    , g
-                        [ id "Line_36"
-                        ]
-                        [ line
-                            [ x1 "266.07286"
-                            , y1 "200.85522"
-                            , x2 "290.75465"
-                            , y2 "201.0373"
-                            , stroke pageTextColor
-                            , strokeLinecap "round"
-                            , strokeLinejoin "round"
-                            , strokeWidth "2"
-                            ]
-                            []
-                        ]
-                    , g
-                        [ id "Line_37"
-                        ]
-                        [ line
-                            [ x1 "266.07286"
-                            , y1 "164.80058"
-                            , x2 "278.3874"
-                            , y2 "164.94049"
-                            , stroke pageTextColor
-                            , strokeLinecap "round"
-                            , strokeLinejoin "round"
-                            , strokeWidth "2"
-                            ]
-                            []
-                        ]
-                    ]
+        , g 
+            [ Svg.Attributes.transform "matrix(.53882 0 0 .53882 353.34 -117.2)" ]
+            [ Svg.path 
+                [ Svg.Attributes.d "m-619.59 227.53c27.879 38.485 31.396 72.872-22.562 97.59l66.383-10.257-24.762-31.329 35.916-16.913z"
+                , Svg.Attributes.fill "#b3b3b3"
+                ] []
+            , Svg.path 
+                [ Svg.Attributes.d "m-629.79 241.67c27.879 38.485 31.396 72.872-22.562 97.59l66.383-10.257-24.762-31.329 35.916-16.913z"
+                , Svg.Attributes.fill "#ccc"
+                ] []
+            , Svg.circle 
+                [ Svg.Attributes.cx "-570.45"
+                , Svg.Attributes.cy "299.69"
+                , Svg.Attributes.r "35.152" 
+                , Svg.Attributes.stroke "#505050" 
+                , Svg.Attributes.strokeWidth "3"
+                ] []
+            , g 
+                [ Svg.Attributes.fill "none" ] 
+                [ ellipse 
+                    [ Svg.Attributes.cx "-570.13"
+                    , Svg.Attributes.cy "266.7" 
+                    , Svg.Attributes.rx "38.22"
+                    , Svg.Attributes.ry "11.225"
+                    , Svg.Attributes.stroke "#6d6d6d"
+                    , Svg.Attributes.strokeWidth "6"
+                    ] []
+                , rect 
+                    [ Svg.Attributes.x "-567.07"
+                    , Svg.Attributes.y "288.95"
+                    , Svg.Attributes.width "18.629"
+                    , Svg.Attributes.height "18.629"
+                    , Svg.Attributes.stroke "#6d6d6d"
+                    , Svg.Attributes.strokeWidth "2"
+                    ] []
+                , Svg.path [ Svg.Attributes.d "m-568.44 294.1 10.829 10.829 18.323-21.772"
+                           , Svg.Attributes.stroke "#bcbcbc"
+                           , Svg.Attributes.strokeWidth "2.2667"
+                           ] []
                 ]
             ]
         ]
