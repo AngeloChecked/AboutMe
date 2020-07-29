@@ -74,7 +74,7 @@ header currentPath =
                 , label =
                     Element.row [ Font.size 30, Element.spacing 16 ]
                         [ DocumentSvg.view
-                        , Element.text "elm-pages-starter"
+                        , Element.text "AngeloChecked"
                         ]
                 }
             , Element.row [ Element.spacing 15 ]
@@ -113,7 +113,7 @@ highlightableLink currentPath linkDirectory displayName =
 githubRepoLink : Element msg
 githubRepoLink =
     Element.newTabLink []
-        { url = "https://github.com/dillonkearns/elm-pages"
+        { url = "https://github.com/AngeloChecked"
         , label =
             Element.image
                 [ Element.width (Element.px 22)

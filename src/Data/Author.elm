@@ -21,6 +21,11 @@ all =
       , avatar = Pages.images.author.dillon
       , bio = "Elm developer and educator. Founder of Incremental Elm Consulting."
       }
+      ,
+      { name = "Angelo Ceccato"
+      , avatar = Pages.images.author.ceccato
+      , bio = "Developer"
+      }
     ]
 
 

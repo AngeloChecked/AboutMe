@@ -32,12 +32,12 @@ manifest =
     , categories = [ Pages.Manifest.Category.education ]
     , displayMode = Manifest.Standalone
     , orientation = Manifest.Portrait
-    , description = "elm-pages-starter - A statically typed site generator."
+    , description = "Angelo Ceccato"
     , iarcRatingId = Nothing
-    , name = "elm-pages-starter"
+    , name = "Angelo Ceccato"
     , themeColor = Just Color.white
     , startUrl = pages.index
-    , shortName = Just "elm-pages-starter"
+    , shortName = Just "Angelo Ceccato"
     , sourceIcon = images.iconPng
     }
 
@@ -217,10 +217,10 @@ head metadata =
                 Metadata.Page meta ->
                     Seo.summaryLarge
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages-starter"
+                        , siteName = "Angelo Ceccato"
                         , image =
-                            { url = images.iconPng
-                            , alt = "elm-pages logo"
+                            { url = images.angeloCheckedLogo
+                            , alt = "AngeloChecked logo"
                             , dimensions = Nothing
                             , mimeType = Nothing
                             }
@@ -233,9 +233,9 @@ head metadata =
                 Metadata.Article meta ->
                     Seo.summaryLarge
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages starter"
+                        , siteName = "Angelo Cecccato"
                         , image =
-                            { url = meta.image
+                            { url = images.angeloCheckedLogo
                             , alt = meta.description
                             , dimensions = Nothing
                             , mimeType = Nothing
@@ -270,7 +270,7 @@ head metadata =
                     in
                     Seo.summary
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages-starter"
+                        , siteName = "Angelo Ceccato"
                         , image =
                             { url = meta.avatar
                             , alt = meta.name ++ "'s elm-pages articles."
@@ -290,16 +290,16 @@ head metadata =
                 Metadata.BlogIndex ->
                     Seo.summaryLarge
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages"
+                        , siteName = "Angelo Ceccato"
                         , image =
-                            { url = images.iconPng
-                            , alt = "elm-pages logo"
+                            { url = images.angeloCheckedLogo
+                            , alt = "AngeloChecked logo"
                             , dimensions = Nothing
                             , mimeType = Nothing
                             }
                         , description = siteTagline
                         , locale = Nothing
-                        , title = "elm-pages blog"
+                        , title = "Angelo Ceccato blog"
                         }
                         |> Seo.website
            )
@@ -307,9 +307,9 @@ head metadata =
 
 canonicalSiteUrl : String
 canonicalSiteUrl =
-    "https://elm-pages-starter.netlify.com"
+    "https://www.angelocecccato.it"
 
 
 siteTagline : String
 siteTagline =
-    "Starter blog for elm-pages"
+    "Angelo Ceccato blog"
